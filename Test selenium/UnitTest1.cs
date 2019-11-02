@@ -18,8 +18,9 @@ namespace Tests
 
         // Type Name in the FirstName text box      
         driver.FindElement(By.Name("firstname")).SendKeys("Lakshay");
+        driver.FindElement(By.Name("firstname")).SendKeys("Lakshay");
 
-           
-                }
+
+        }
     }
 }
